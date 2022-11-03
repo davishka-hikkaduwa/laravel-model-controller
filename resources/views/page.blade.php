@@ -12,11 +12,13 @@
     <h1>MOVIES</h1>
 
     <div class="card-container">
-        @foreach ($data as $movie)
+        @foreach ($movies as $movie)
             <div>
                 @include('partials._movie-card')
             </div>
         @endforeach
+
+        {{-- @dd($movies); --}}
     </div>
 </body>
 

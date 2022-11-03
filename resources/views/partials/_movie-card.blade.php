@@ -1,3 +1,3 @@
 <div class="card">
-    {{ $movie['title'] }}
+    <h2>{{ $movie['title'] }}</h2>
 </div>
