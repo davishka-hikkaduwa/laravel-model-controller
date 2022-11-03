@@ -11,7 +11,8 @@ class PageController extends Controller
     //
 
     public function index(){
-        // $movie = Movie::all();
+        $movies = Movie::all();
+
 
         // $data = ['movie' => $movie];
 
